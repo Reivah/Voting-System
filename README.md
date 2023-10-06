@@ -29,5 +29,5 @@ The Simple Voting System is a application designed to facilitate voting among si
 - Monitor real-time voting results on the results page.
 ## Demo
 
-Insert gif or link to demo
+https://reivah.github.io/Voting-System/
 
