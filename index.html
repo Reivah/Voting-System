@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">Voting Card</h1>
+    <div class="users-box">
+        <h2 class="user-title">People who can vote</h2>
+        <ul>
+            <li class="person"><span class="name">Name:</span> jakub <span class="id">ID:</span> 12</li>
+            <li class="person"><span class="name">Name:</span> john <span class="id">ID:</span> 123</li>
+            <li class="person"><span class="name">Name:</span> lily <span class="id">ID:</span> 1234</li>
+            <li class="person"><span class="name">Name:</span> jason <span class="id">ID:</span> 12345</li>
+            <li class="person"><span class="name">Name:</span> mark <span class="id">ID:</span> 123456</li>
+            <li class="person"><span class="name">Name:</span> vanessa <span class="id">ID:</span> 1234567</li>
+        </ul>
+    </div>
+    
+        <p class="text">What are we going to do today? Vote below!</p>
+
+    
+    <form class="voting-form">
+        <label for="text">User Name<input type="text" class="user-name" placeholder="Please write your name..." required></label>
+        <label for="number">User ID<input type="number" class="user-id" placeholder="Please write your ID..."></label>
+        <select class="select">
+            <option value="Cleaning">Cleaning</option>
+            <option value="Gaming">Gaming</option>
+            <option value="Sleeping">Sleeping</option>
+        </select>
+        <button class="vote-btn">Vote</button>
+    </form>
+    <div class="result-box"></div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

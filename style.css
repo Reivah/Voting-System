@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: rgb(246, 244, 235)
+    
+}
+
+.title {
+    margin: 40px 60px;
+    text-align: center;
+}
+
+
+.users-box {
+    
+    margin-bottom: 50px;
+}
+
+.user-title {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.person {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: rgba(102, 102, 236, 0.842);
+    border-radius: 8px;
+    color: #fff;
+}
+
+.person span.name, span.id {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.text {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.voting-form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.voting-form label{
+    margin-bottom: 20px;
+}
+.voting-form input {
+    margin-left: 20px;
+    padding: 8px;
+    width: 300px;
+    font-size: 18px;
+    background-color: rgba(102, 102, 236, 0.349);
+    border: none;
+    border-radius: 10px;
+    
+}
+
+input.user-id {
+    margin-left: 47px;
+}
+
+.select {
+    padding: 8px 12px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+.vote-btn {
+    margin: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    width: 50%;
+    background-color: rgba(102, 102, 236, 0.842);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color .3s, background-color .3s;
+}
+
+.vote-btn:hover {
+    background-color: #11009E;
+    color: #fff;
+}
+.result-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.vote-text {
+    font-size: 18px;
+}
